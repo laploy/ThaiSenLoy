@@ -11,15 +11,21 @@ namespace Laploy.ThaiSen.ML
 {
     public static class ThaiSen
     {
+        private static MLContext mlContext = new MLContext();
+        private static ModelInput input = new ModelInput();
+        private static string modelPath = Path.Combine
+                    (Environment.CurrentDirectory, "Model", "MLModel.zip");
+        private static ITransformer mlModel;
+        private static PredictionEngine<ModelInput, ModelOutput> predEngine;
+        private static void Init()
+        {
+            mlModel = mlContext.Model.Load(modelPath, out var modelInputSchema);
+            predEngine = mlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(mlModel);
+        }
         public static (bool Result, float Score) Predict(string s)
         {
-            ModelInput input = new ModelInput();
+            if (mlModel == null) Init();    // load engine on first use only.
             input.Text = s;
-            MLContext mlContext = new MLContext();
-            string modelPath = Path.Combine
-                    (Environment.CurrentDirectory, "Model", "MLModel.zip");
-            ITransformer mlModel = mlContext.Model.Load(modelPath, out var modelInputSchema);
-            var predEngine = mlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(mlModel);
             ModelOutput result = predEngine.Predict(input);
             return (result.Prediction, result.Score);
         }
