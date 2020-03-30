@@ -84,17 +84,17 @@ ThaiSenLoy มี dependency ต่าง ๆ ตามรายการที�
 - .NETStandard 2.0
 - Microsoft.ML (>= 1.4.0)
 
-* NETStandard.Library 2.0.3
+*NETStandard.Library 2.0.3*
 
 
-* .NETCoreApp 2.0
+*.NETCoreApp 2.0*
 - Microsoft.NETCore.Platforms (>= 1.1.0)
 
-* .NETFramework 4.5
+*.NETFramework 4.5
 - Microsoft.NETCore.Platforms (>= 1.1.0)
 - System.Runtime.InteropServices.RuntimeInformation (>= 4.3.0)
 
-* .NETFramework 4.6
+*.NETFramework 4.6
 - Microsoft.NETCore.Platforms (>= 1.1.0)
 - Microsoft.Win32.Primitives (>= 4.3.0)
 - System.AppContext (>= 4.3.0)
@@ -113,36 +113,36 @@ ThaiSenLoy มี dependency ต่าง ๆ ตามรายการที�
 - System.Security.Cryptography.X509Certificates (>= 4.3.0)
 - System.Xml.ReaderWriter (>= 4.3.0)
 
-* .NETFramework 4.6.1
+*.NETFramework 4.6.1
 - Microsoft.NETCore.Platforms (>= 1.1.0)
 
-* .NETStandard 2.0
+*.NETStandard 2.0
 - Microsoft.NETCore.Platforms (>= 1.1.0)
 - Portable Class Library (.NETFramework 4.5, Windows 8.0)
 - Microsoft.NETCore.Platforms (>= 1.1.0)
 - System.Runtime.InteropServices.RuntimeInformation (>= 4.3.0)
 
-* Portable Class Library (.NETFramework 4.5, Windows 8.0, WindowsPhone 8.0, WindowsPhoneApp 8.1)
+*Portable Class Library (.NETFramework 4.5, Windows 8.0, WindowsPhone 8.0, WindowsPhoneApp 8.1)
 - Microsoft.NETCore.Platforms (>= 1.1.0)
 
-* Portable Class Library (.NETFramework 4.5, Windows 8.0, WindowsPhoneApp 8.1)
+*Portable Class Library (.NETFramework 4.5, Windows 8.0, WindowsPhoneApp 8.1)
 - Microsoft.NETCore.Platforms (>= 1.1.0)
 - System.Runtime.InteropServices.RuntimeInformation (>= 4.3.0)
 
-* UAP 10.0
+*UAP 10.0
 
-* UAP 10.0.15138
+*UAP 10.0.15138
 - Microsoft.NETCore.Platforms (>= 1.1.0)
 
-* Windows 8.0
+*Windows 8.0
 - Microsoft.NETCore.Platforms (>= 1.1.0)
 
-* System.Runtime.InteropServices.RuntimeInformation (>= 4.3.0)
+*System.Runtime.InteropServices.RuntimeInformation (>= 4.3.0)
 
-* WindowsPhone 8.0
+*WindowsPhone 8.0
 - Microsoft.NETCore.Platforms (>= 1.1.0)
 
-* WindowsPhoneApp 8.1
+*WindowsPhoneApp 8.1
 - Microsoft.NETCore.Platforms (>= 1.1.0)
 - System.Runtime.InteropServices.RuntimeInformation (>= 4.3.0)
 
