@@ -62,6 +62,16 @@ C# .NET Standard ML Machine Learning Thai Sentiment analysis Loy Laploy
 test
 
 
+## การติดตั้ง ThaiSenLoy
+การติดตั้งทำได้สองแบบ คือผ่าน NuGet หรือ download ที่ GitHub
+1.	NuGet: แนะนำให้ใช้วิธีนี้เพราะสะดวก ทำได้โดยติดตั้งผ่าน NuGet Package Manager ใน Microsoft Visual Studio หรือใช้ CLI หากทำงานใน Microsoft Visual Studio Code
+2.	GitHub: หากต้องการ source code มาใส่ใน project อาจ clone ได้จาก GitHub https://github.com/laploy/ThaiSenLoy
+
+
+
+
+
+
 Creative Commons Attribution 4.0 International Public License
 
 Nuget : https://www.nuget.org/packages/AppLogger_Loy/
