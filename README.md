@@ -67,6 +67,72 @@ test
 1.	NuGet: แนะนำให้ใช้วิธีนี้เพราะสะดวก ทำได้โดยติดตั้งผ่าน NuGet Package Manager ใน Microsoft Visual Studio หรือใช้ CLI หากทำงานใน Microsoft Visual Studio Code
 2.	GitHub: หากต้องการ source code มาใส่ใน project อาจ clone ได้จาก GitHub https://github.com/laploy/ThaiSenLoy
 
+## การติดตั้ง Dependency
+ThaiSenLoy มี dependency ต่าง ๆ ตามรายการที่เห็นข้างล่าง หากท่านติดตั้ง ThaiSenLoy ผ่าน NuGet Package Manager ใน Microsoft Visual Studio ท่านไม่จำเป็นติดตั้ง file ต่าง ๆ เหล่านี้เองเพราะ Microsoft Visual Studio จะติดตั้งให้โดยอัตโนมัต
+
+•	Microsoft.ML 1.4.0
+o	Microsoft.ML.CpuMath (>= 1.4.0)
+o	Microsoft.ML.DataView (>= 1.4.0)
+o	Newtonsoft.Json (>= 10.0.3)
+o	System.CodeDom (>= 4.4.0)
+o	System.Collections.Immutable (>= 1.5.0)
+o	System.Memory (>= 4.5.1)
+o	System.Reflection.Emit.Lightweight (>= 4.3.0)
+o	System.Threading.Tasks.Dataflow (>= 4.8.0)
+
+•	Microsoft.ML.FastTree 1.4.0
+o	.NETStandard 2.0
+o	Microsoft.ML (>= 1.4.0)
+
+•	NETStandard.Library 2.0.3
+•	.NETCoreApp 2.0
+o	Microsoft.NETCore.Platforms (>= 1.1.0)
+•	.NETFramework 4.5
+o	Microsoft.NETCore.Platforms (>= 1.1.0)
+o	System.Runtime.InteropServices.RuntimeInformation (>= 4.3.0)
+•	.NETFramework 4.6
+o	Microsoft.NETCore.Platforms (>= 1.1.0)
+o	Microsoft.Win32.Primitives (>= 4.3.0)
+o	System.AppContext (>= 4.3.0)
+o	System.Console (>= 4.3.0)
+o	System.Globalization.Calendars (>= 4.3.0)
+o	System.IO.Compression (>= 4.3.0)
+o	System.IO.Compression.ZipFile (>= 4.3.0)
+o	System.IO.FileSystem (>= 4.3.0)
+o	System.IO.FileSystem.Primitives (>= 4.3.0)
+o	System.Net.Http (>= 4.3.2)
+o	System.Net.Sockets (>= 4.3.0)
+o	System.Runtime.InteropServices.RuntimeInformation (>= 4.3.0)
+o	System.Security.Cryptography.Algorithms (>= 4.3.0)
+o	System.Security.Cryptography.Encoding (>= 4.3.0)
+o	System.Security.Cryptography.Primitives (>= 4.3.0)
+o	System.Security.Cryptography.X509Certificates (>= 4.3.0)
+o	System.Xml.ReaderWriter (>= 4.3.0)
+•	.NETFramework 4.6.1
+o	Microsoft.NETCore.Platforms (>= 1.1.0)
+•	.NETStandard 2.0
+o	Microsoft.NETCore.Platforms (>= 1.1.0)
+o	Portable Class Library (.NETFramework 4.5, Windows 8.0)
+o	Microsoft.NETCore.Platforms (>= 1.1.0)
+o	System.Runtime.InteropServices.RuntimeInformation (>= 4.3.0)
+•	Portable Class Library (.NETFramework 4.5, Windows 8.0, WindowsPhone 8.0, WindowsPhoneApp 8.1)
+o	Microsoft.NETCore.Platforms (>= 1.1.0)
+•	Portable Class Library (.NETFramework 4.5, Windows 8.0, WindowsPhoneApp 8.1)
+o	Microsoft.NETCore.Platforms (>= 1.1.0)
+o	System.Runtime.InteropServices.RuntimeInformation (>= 4.3.0)
+•	UAP 10.0
+•	UAP 10.0.15138
+o	Microsoft.NETCore.Platforms (>= 1.1.0)
+•	Windows 8.0
+o	Microsoft.NETCore.Platforms (>= 1.1.0)
+•	System.Runtime.InteropServices.RuntimeInformation (>= 4.3.0)
+•	WindowsPhone 8.0
+o	Microsoft.NETCore.Platforms (>= 1.1.0)
+•	WindowsPhoneApp 8.1
+o	Microsoft.NETCore.Platforms (>= 1.1.0)
+o	System.Runtime.InteropServices.RuntimeInformation (>= 4.3.0)
+
+
 
 
 
