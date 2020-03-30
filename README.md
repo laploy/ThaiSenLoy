@@ -133,6 +133,13 @@ o	Microsoft.NETCore.Platforms (>= 1.1.0)
 o	System.Runtime.InteropServices.RuntimeInformation (>= 4.3.0)
 
 
+## การติดตั้ง Machine Learning Model file (MLModel.zip)
+ไ
+ม่ว่าจะติดตั้งโดยใช้ NuGet หรือ GitHub ท่านจะต้องติดตั้ง MLModel.zip ก่อนจะสามารถใช้งานได้ วิธีติดตั้งคือให้สร้างโฟลเดอร์ชื่อ Model ใน root ของ Application แล้วนำไฟล์ MLModel.zip ไปใส่ไว้ในนั้นโดยไม่ต้อง unzip มันก่อน 
+
+ยกตัวอย่างเช่นหากท่านกำลังพัฒนา Application .NET Core 3.1 ด้วยภาษา C# ในโหมด debug ในโปรแกรม Microsoft Visual Studio จะมี folder ที่เป็น root ของ Application เป็น ..\bin\Debug\netcoreapp3.1\
+
+ในกรณีที่ท่าน download source จาก GitHub และเปิด solution ด้วยโปรแกรม Microsoft Visual Studio โปรแกรม Microsoft Visual Studio จะสร้าง folder นี้ในที่ ๆ เหมาะสมและนำไฟล์ MLModel.zip ไปใส่ไว้ให้อย่างอัตโนมัต
 
 
 
