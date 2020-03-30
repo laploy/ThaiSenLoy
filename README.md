@@ -8,7 +8,7 @@ Thai sentiment text analytic by Loy (ThaiSenLoy) เป็นไลบราร�
 ## ก่อนใช้งาน
 1. ดาวน์โหลดไฟล์ MLModel.zip จาก https://github.com/laploy/ThaiSenLoy/tree/master/ThaiSenLoy%20source%201.0/ThaiSenLoy/Model
 2. สร้าง folder ชื่อ Model ใน root folder ของ Application เช่น ขณะกำลังดีบักใน Visual Studio ให้ใส่ใน bin\Debug\netcoreapp3.1>
-2. นำไฟล์ MLModel.zipไปใส่ใน root folder ของ Application เช่น ขณะกำลังดีบักใน Visual Studio ให้ใส่ใน bin\Debug\netcoreapp3.1>\Model
+2. นำไฟล์ MLModel.zipไปใส่ใน folder Model เช่น ขณะกำลังดีบักใน Visual Studio ให้ใส่ใน bin\Debug\netcoreapp3.1>\Model
 
 ## Package ID
 ThaiSenLoy
