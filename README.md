@@ -70,15 +70,15 @@ test
 ## การติดตั้ง Dependency
 ThaiSenLoy มี dependency ต่าง ๆ ตามรายการที่เห็นข้างล่าง หากท่านติดตั้ง ThaiSenLoy ผ่าน NuGet Package Manager ใน Microsoft Visual Studio ท่านไม่จำเป็นติดตั้ง file ต่าง ๆ เหล่านี้เองเพราะ Microsoft Visual Studio จะติดตั้งให้โดยอัตโนมัต
 
-•	Microsoft.ML 1.4.0
-o	Microsoft.ML.CpuMath (>= 1.4.0)
-o	Microsoft.ML.DataView (>= 1.4.0)
-o	Newtonsoft.Json (>= 10.0.3)
-o	System.CodeDom (>= 4.4.0)
-o	System.Collections.Immutable (>= 1.5.0)
-o	System.Memory (>= 4.5.1)
-o	System.Reflection.Emit.Lightweight (>= 4.3.0)
-o	System.Threading.Tasks.Dataflow (>= 4.8.0)
+*Microsoft.ML 1.4.0*
+- Microsoft.ML.CpuMath (>= 1.4.0)
+- Microsoft.ML.DataView (>= 1.4.0)
+- Newtonsoft.Json (>= 10.0.3)
+- System.CodeDom (>= 4.4.0)
+- System.Collections.Immutable (>= 1.5.0)
+- System.Memory (>= 4.5.1)
+- System.Reflection.Emit.Lightweight (>= 4.3.0)
+- System.Threading.Tasks.Dataflow (>= 4.8.0)
 
 •	Microsoft.ML.FastTree 1.4.0
 o	.NETStandard 2.0
@@ -134,8 +134,10 @@ o	System.Runtime.InteropServices.RuntimeInformation (>= 4.3.0)
 
 
 ## การติดตั้ง Machine Learning Model file (MLModel.zip)
-ไ
-ม่ว่าจะติดตั้งโดยใช้ NuGet หรือ GitHub ท่านจะต้องติดตั้ง MLModel.zip ก่อนจะสามารถใช้งานได้ วิธีติดตั้งคือให้สร้างโฟลเดอร์ชื่อ Model ใน root ของ Application แล้วนำไฟล์ MLModel.zip ไปใส่ไว้ในนั้นโดยไม่ต้อง unzip มันก่อน 
+
+ไม่ว่าจะติดตั้งโดยใช้ NuGet หรือ GitHub ท่านจะต้องติดตั้ง MLModel.zip ก่อนจะสามารถใช้งานได้ วิธีติดตั้งคือให้สร้างโฟลเดอร์ชื่อ Model ใน root ของ Application แล้วนำไฟล์ MLModel.zip ไปใส่ไว้ในนั้นโดยไม่ต้อง unzip มันก่อน 
+
+ดาวน์โหลดไฟล์ MLModel.zip จาก https://github.com/laploy/ThaiSenLoy/tree/master/ThaiSenLoy%20source%201.0/ThaiSenLoy/Model
 
 ยกตัวอย่างเช่นหากท่านกำลังพัฒนา Application .NET Core 3.1 ด้วยภาษา C# ในโหมด debug ในโปรแกรม Microsoft Visual Studio จะมี folder ที่เป็น root ของ Application เป็น ..\bin\Debug\netcoreapp3.1\
 
