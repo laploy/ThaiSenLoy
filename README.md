@@ -243,4 +243,4 @@ ThaiSenLoy มี dependency ต่าง ๆ ตามรายการที�
 
 Creative Commons Attribution 4.0 International Public License
 
-Nuget : https://www.nuget.org/packages/AppLogger_Loy/
+Nuget : https://www.nuget.org/packages/ThaiSenLoy/
