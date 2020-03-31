@@ -23,6 +23,20 @@ laploy
 ## Language
 C# 8.0
 
+## Compatible Frameworks
+
+ThaiSenLoy สามารถทำงานได้กับ project ที่ใช้ framework ต่าง ๆ ตามรายการข้างล่าง ตัวเลขทางขวาคือหมายเลข version ขั้นต่ำสุดที่จะสามารถใช้ได้
+- .NET Standard	2.0	
+- .NET Core	2.0	
+- .NET Framework 1	4.6.1 2	
+- Mono	5.4	
+- Xamarin.iOS	10.14	
+- Xamarin.Mac	3.8	
+- Xamarin.Android	8.0	
+- Universal Windows Platform	10.0.16299	
+- Unity	2018.1	
+
+
 
 ## Dependencies
 .NETStandard 2.0
