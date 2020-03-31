@@ -39,9 +39,9 @@ ThaiSenLoy สามารถทำงานได้กับ project ที่
 
 
 ## Dependencies
-.NETStandard 2.0
-Microsoft.ML (>= 1.4.0)
-Microsoft.ML.FastTree (>= 1.4.0)
+- .NETStandard 2.0
+- Microsoft.ML (>= 1.4.0)
+- Microsoft.ML.FastTree (>= 1.4.0)
 
 ## Description
 C# ฟรี tool ตรวจข้อความไทยว่าเป็น ด่า ติหนิ หรือมีคำหยาบคายหรือไม่
@@ -76,16 +76,16 @@ C# .NET Standard ML Machine Learning Thai Sentiment analysis Loy Laploy
 
 *ThaiSenLoy example 1.0*
 - Example
-- Example.csproj
-- Program.cs
+- - Example.csproj
+- - Program.cs
 - ThaiSenLoy.sln
 
 *ThaiSenLoy source 1.0*
 - ThaiSenLoy.sln
-- ThaiSenLoy
-- Model
-- - MLModel.zip
-- ThaiSen.cs
+- - ThaiSenLoy
+- - Model
+- - - MLModel.zip
+- - ThaiSen.cs
 - ThaiSenLoy.csproj
 
 
