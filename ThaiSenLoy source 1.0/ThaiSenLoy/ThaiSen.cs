@@ -11,24 +11,55 @@ namespace Laploy.ThaiSen.ML
 {
     public static class ThaiSen
     {
-        private static MLContext mlContext = new MLContext();
-        private static ModelInput input = new ModelInput();
-        private static string modelPath = Path.Combine
+        private static MLContext _backedContext;
+        private static MLContext MlContext
+        {
+            get
+            {
+                //defer until needed.
+                return _backedContext ?? (_backedContext = new MLContext());
+            }
+        }
+        private static readonly ModelInput input = new ModelInput();
+        private static readonly string modelPath = Path.Combine
                     (Environment.CurrentDirectory, "Model", "MLModel.zip");
         private static ITransformer mlModel;
         private static PredictionEngine<ModelInput, ModelOutput> predEngine;
         private static void Init()
         {
-            mlModel = mlContext.Model.Load(modelPath, out var modelInputSchema);
-            predEngine = mlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(mlModel);
+            mlModel = MlContext.Model.Load(modelPath, out var modelInputSchema);
+            predEngine = MlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(mlModel);
         }
-        public static (bool Result, float Score) Predict(string s)
+        /// <summary>
+        /// Predict given string and return a predict result with confidence score.
+        /// </summary>
+        /// <param name="s">String to predict.</param>
+        /// <returns>A predict result with confidence score.</returns>
+        public static (SentimentPredictionResult Result, float Score) Predict(string s)
         {
-            if (mlModel == null) Init();    // load engine on first use only.
+            if (string.IsNullOrWhiteSpace(s)) return (SentimentPredictionResult.Unknown, -1);
             input.Text = s;
-            ModelOutput result = predEngine.Predict(input);
-            return (result.Prediction, result.Score);
+            var result = Predict(input);
+            var predictionResult = result.Prediction ? SentimentPredictionResult.Negative : SentimentPredictionResult.Positive;
+            return (predictionResult, result.Score);
         }
+        /// <summary>
+        /// Predict given ModelInput and return ModelOutput.
+        /// </summary>
+        /// <param name="param">A ModelInput instance.</param>
+        /// <returns>A ModelOutput instance.</returns>
+        public static ModelOutput Predict(ModelInput param)
+        {
+            if (mlModel == null) Init();  // load engine on first use only.
+            var result = predEngine.Predict(param);
+            return result;
+        }
+    }
+    public enum SentimentPredictionResult
+    {
+        Negative = -1,
+        Unknown = 0, //just in case we want to combine prediction with confidence score, this one might come in handy.
+        Positive = 1
     }
     public class ModelInput
     {
