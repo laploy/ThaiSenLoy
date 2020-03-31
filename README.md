@@ -74,17 +74,17 @@ C# .NET Standard ML Machine Learning Thai Sentiment analysis Loy Laploy
 
 ## Corpus file structure
 
-*ThaiSenLoy example 1.0*
+*ThaiSenLoy example 1.0* source code ตัวอย่างวิธีใช้ ThaiSenLoy
 - Example
 - - Example.csproj
-- - Program.cs
+- - Program.cs 
 - ThaiSenLoy.sln
 
-*ThaiSenLoy source 1.0*
+*ThaiSenLoy source 1.0* source code ThaiSenLoy
 - ThaiSenLoy.sln
 - - ThaiSenLoy
 - - Model
-- - - MLModel.zip
+- - - MLModel.zip *** Machine Learning Model 
 - - ThaiSen.cs
 - ThaiSenLoy.csproj
 
