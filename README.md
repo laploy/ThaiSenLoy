@@ -1,5 +1,5 @@
 # Thai Sentiment Analytic by Loy [ThaiSenLoy]
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3731677.svg)](https://doi.org/10.5281/zenodo.3731677) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![nuget](https://img.shields.io/nuget/v/TW.Resfit.Core.svg)](https://www.nuget.org/packages/ThaiSenLoy/)
+ [![nuget](https://img.shields.io/nuget/v/TW.Resfit.Core.svg)](https://www.nuget.org/packages/ThaiSenLoy/)  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3731677.svg)](https://doi.org/10.5281/zenodo.3731677)
 
 Library tool ช่วยตรวจข้อความไทยว่าเป็น ด่า ติหนิ หรือมีคำหยาบคายหรือไม่
 
