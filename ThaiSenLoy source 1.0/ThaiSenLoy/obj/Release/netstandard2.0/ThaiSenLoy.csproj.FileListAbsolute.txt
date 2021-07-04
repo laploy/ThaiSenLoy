@@ -1,0 +1,10 @@
+C:\Users\Exception\Source\Repos\ThaiSenLoy\ThaiSenLoy source 1.0\ThaiSenLoy\obj\Release\netstandard2.0\ThaiSenLoy.csprojAssemblyReference.cache
+C:\Users\Exception\Source\Repos\ThaiSenLoy\ThaiSenLoy source 1.0\ThaiSenLoy\obj\Release\netstandard2.0\ThaiSenLoy.csproj.CoreCompileInputs.cache
+C:\Users\Exception\Source\Repos\ThaiSenLoy\ThaiSenLoy source 1.0\ThaiSenLoy\obj\Release\netstandard2.0\ThaiSenLoy.AssemblyInfoInputs.cache
+C:\Users\Exception\Source\Repos\ThaiSenLoy\ThaiSenLoy source 1.0\ThaiSenLoy\obj\Release\netstandard2.0\ThaiSenLoy.AssemblyInfo.cs
+C:\Users\Exception\Source\Repos\ThaiSenLoy\ThaiSenLoy source 1.0\ThaiSenLoy\bin\Release\netstandard2.0\Model\MLModel.zip
+C:\Users\Exception\Source\Repos\ThaiSenLoy\ThaiSenLoy source 1.0\ThaiSenLoy\bin\Release\netstandard2.0\ThaiSenLoy.deps.json
+C:\Users\Exception\Source\Repos\ThaiSenLoy\ThaiSenLoy source 1.0\ThaiSenLoy\bin\Release\netstandard2.0\ThaiSenLoy.dll
+C:\Users\Exception\Source\Repos\ThaiSenLoy\ThaiSenLoy source 1.0\ThaiSenLoy\bin\Release\netstandard2.0\ThaiSenLoy.pdb
+C:\Users\Exception\Source\Repos\ThaiSenLoy\ThaiSenLoy source 1.0\ThaiSenLoy\obj\Release\netstandard2.0\ThaiSenLoy.dll
+C:\Users\Exception\Source\Repos\ThaiSenLoy\ThaiSenLoy source 1.0\ThaiSenLoy\obj\Release\netstandard2.0\ThaiSenLoy.pdb
